@@ -1,0 +1,187 @@
+header{
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    background-color: #343A40;
+    z-index: 999;
+  }
+  .h1t{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 12px;
+    font-family: RBL;
+  }
+  .h2t{
+    position: absolute;
+    color: white;
+    font-family: RBL;
+    margin-left: 82px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .h3t{
+    position: absolute;
+    color: white;
+    font-family: RBL;
+    margin-left: 183px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .h4t{
+    position: absolute;
+    color: white;
+    font-family: RBL;
+    margin-left: 260px;
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .hamdiv{
+    display: flex;
+    justify-content: right;
+    visibility: hidden;
+  }
+  .hambtn{
+    display: block;
+    width: 54px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    border-radius: 4px;
+    margin-top: 9px;
+    margin-right: 16px;
+    align-items: center;
+    position: relative;
+  }
+  .hambtn .span {
+    position: absolute;
+    top: 50%; margin-top: -1px;
+    left: 50%; margin-left: -13px;
+    width: 26px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .hambtn .span2 {
+    position: absolute;
+    top: 50%; margin-top: -7px;
+    left: 50%; margin-left: -13px;
+    width: 26px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .hambtn .span3 {
+    position: absolute;
+    top: 50%; margin-top: 6px;
+    left: 50%; margin-left: -13px;
+    width: 26px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  body{
+    margin: 0px;
+  }
+  @media screen and (max-width: 576px){
+  .h2t{
+    visibility: hidden;
+  }
+  .h3t{
+    visibility: hidden;
+  }
+  .h4t{
+    visibility: hidden;
+  }
+  .hamdiv{
+    visibility: visible;
+  }
+}
+
+.inscls{
+  padding-top: 56px;
+}
+.button1{
+  position: absolute;
+}
+.pf{
+  position: absolute;
+  font-size: 72px;
+  font-family: RBL;
+}
+.pfd{
+  margin-top: 64px;
+}
+.pft{
+  position: absolute;
+  font-size: 16px;
+  font-family: RBR;
+}
+.pcls{
+  font-size: 16px;
+  line-height: 18.75px;
+}
+.table{
+  margin-top: 32px;
+  width: 90%;
+}
+footer{
+  width: 100%;
+  height: 51px;
+  background-color: #F5F5F5;
+  margin-top: 73px;
+}
+footer>span{
+  color: #6C757D; 
+  margin-left: 55px;
+  margin-top: 12px;
+  position: absolute;
+}
+@media screen and (max-width: 576px){
+  footer{
+    height: 71px;
+  }
+  footer>span{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 576px){
+  .tableoverflow{
+    overflow: scroll;
+    width: 100%;
+    height: 309px;
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 576px){
+  .fb{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px){
+  .fb{
+    
+  }
+  .pf{
+    margin-top: 32px;
+    font-size: 48px;
+  }
+  .pft{
+    margin-top: 1px;
+  }
+  .pfd{
+    margin-top: 32px;
+  }
+  .card2{
+    margin-left: 1px;
+  }
+}
+  @font-face {
+    font-family: RBR;
+    src: url(Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: RBT;
+    src: url(Roboto-Thin.ttf);
+  }
+  @font-face {
+    font-family: RBL;
+    src: url(Roboto-Light.ttf);
+  }
